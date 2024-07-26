@@ -21,17 +21,14 @@ function Footer() {
             <div className="col-md-4 mt-5 mb-5">
               <h3>Quick Links</h3>
               <div className="nav-links">
-                <div className="mb-3 ">
-                  <a href="/" className='text-decoration-none list-style-none text-light'>Our Services</a>
+                <div className="mt-3">
+                  <a href="/our-work" className='text-decoration-none list-style-none text-light'>Our Work</a>
                 </div>
                 <div className="mt-3">
-                  <a href="/" className='text-decoration-none list-style-none text-light'>Our Work</a>
+                  <a href="/about" className='text-decoration-none list-style-none text-light'>About Us</a>
                 </div>
                 <div className="mt-3">
-                  <a href="/" className='text-decoration-none list-style-none text-light'>About Us</a>
-                </div>
-                <div className="mt-3">
-                  <a href="/" className='text-decoration-none list-style-none text-light'>Contact Us</a>
+                  <a href="/contact" className='text-decoration-none list-style-none text-light'>Contact Us</a>
                 </div>
               </div>
             </div>
@@ -41,7 +38,7 @@ function Footer() {
                 <div className="mb-3 li">
                   <a href="tel:09137029216" className='text-decoration-none list-style-none text-light'>
                     <span className="me-3">
-                      <img src={Phone} alt="" />
+                    <i className="bi bi-phone me-3"></i>
                     </span>
                     +234 9137029216
                   </a>
@@ -49,7 +46,7 @@ function Footer() {
                 <div className="mt-3 li">
                   <a href="https://wa.me/+2349137029216" className='text-decoration-none list-style-none text-light'>
                     <span className="me-3">
-                      <img src={Whatsapp} alt="" />
+                    <i className="bi bi-whatsapp me-3"></i>
                     </span>
                     +234 9137029216
                   </a>
@@ -57,7 +54,7 @@ function Footer() {
                 <div className="mt-3 li">
                   <a href="mailto:info@digitechlab.com" className='text-decoration-none list-style-none text-light'>
                     <span className="me-3">
-                      <img src={Mail} alt="" />
+                    <i className="bi bi-envelope me-3"></i>
                     </span>
                     contact@givatech.net
                   </a>
