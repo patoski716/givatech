@@ -50,7 +50,7 @@ function Home() {
           </p>
         </div>
         <div className="col-md-4 text-md-end text-sm-start" data-aos="fade-up">
-          <a href="" className="btn btn-dark fw-bold">Work with us</a>
+          <a href="/contact" className="btn btn-dark fw-bold">Work with us</a>
         </div>
       </div>
       </div>
