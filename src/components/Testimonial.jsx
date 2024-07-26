@@ -48,7 +48,7 @@ function Testimonial() {
                 <h4>Testimonial</h4>
                 <h2>What our beneficiaries say about us</h2>
             </div>
-
+            <div className="container">
             <div className="row">
             <Slider {...settings}>
             {cardData.map((card, index) => (
@@ -68,6 +68,8 @@ function Testimonial() {
               </Slider>
 
             </div>
+            </div>
+            
         </div>
     </div>
   )
